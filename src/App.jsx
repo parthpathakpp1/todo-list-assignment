@@ -34,7 +34,9 @@ function App() {
       >
         {theme === "light" ? <MoonIcon /> : <SunIcon />}
       </button>
-      <Todo />
+      <div className="grid py-4 min-h-screen">
+        <Todo />
+      </div>
     </div>
   );
 }
